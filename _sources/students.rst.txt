@@ -1,0 +1,9 @@
+Guia para Alunos
+=======================================================================================================
+
+Nesta seção será mostrado como um aluno deve proceder para enviar um arquivo para o servidor e visualizar a nota recebida
+
+Para fazer o envio de um arquivo para um desafio, deve-se selecionar corretamente o desafio no lado esquerdo da página.
+Depois, é necessário clicar no botão 'Browse' e selecionar o arquivo.py
+
+A partir disso, o servidor testará o arquivo enviado com a função gabarito, e na primeira superior de envio se encontrará o feeback do seu envio.

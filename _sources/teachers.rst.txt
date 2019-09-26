@@ -1,0 +1,25 @@
+Guia para professores
+=======================================================================================================
+
+Nesta seção será mostrado como um professor deve proceder para criar um desafio para o servidor
+
+Para enviar um desafio, é necessário acessar o banco de dados quiz.db, com o sqlite3.
+
+
+1. A seguir um exemplo de comandos para adicionar o desafio. (Se atentar a data de expiração)::
+
+    sqlite3
+
+    .open quiz.db
+
+    INSERT INTO QUIZ (id,numb ,release,expire,problem,tests,results,diagnosis)
+    VALUES( 10,10, '2018-08-01', '2019-12-31','Exemplo de problema', '[[1],[2],[3]]', '[0, 0, 0]', '["a","b","c"]');
+
+
+2. A seguir deve-se adicionar uma nova função no arquivo desafio.py, responsável por retornar a operação lógica correta para o desafio (gabarito). Exemplo::
+
+    def desafio1(n):
+    return 0
+
+
+Observação: Os arquivos enviados pelos alunos se encontrarão na pasta 'upload'

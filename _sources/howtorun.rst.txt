@@ -1,0 +1,33 @@
+Como Usar
+=========
+
+1. Instalar os pacotes necessários
+2. Criar usuário
+3. Executar softdes.py
+
+Procedimentos
+
+1. Executar o comando::
+
+    pip3 install flask
+    pip3 install flask_httpauth
+
+
+2. Criar o usuário
+    A. Criar um arquivo .csv com o seguinte conteúdo::
+        _usuário_,1
+
+        (subtituir _usuário_ pelo nome de usuário desejado)
+
+    B. Executar adduser.py
+        Executar o comando::
+
+            python3 adduser.py
+
+
+3. Inicializar o servidor
+    A. Executar softdes.py::
+
+        python3 softdes.py
+
+    B. Abrir o endereço no navegador. Obs: a senha do usuário será o próprio usuário

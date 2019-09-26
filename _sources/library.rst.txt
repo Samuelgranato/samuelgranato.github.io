@@ -1,0 +1,13 @@
+Bibliotecas
+=======================================================================================================
+
+1. Bibliotecas utilizadas
+
+Flask_.
+
+.. _Flask: http://flask.palletsprojects.com/en/1.1.x/
+
+Flask_httpauth_.
+
+.. _flask_httpauth: https://flask-httpauth.readthedocs.io/en/latest/
+
